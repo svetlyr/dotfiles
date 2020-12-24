@@ -157,6 +157,9 @@ exec_always ~/.fehbg &
 # start/restart picom at startup
 exec_always picom --config /home/svetly/.config/i3/picom.conf
 
+# start cadmus
+exec cadmus
+
 # take screenshot
 bindsym --release $mod+Shift+s exec flameshot gui
 
