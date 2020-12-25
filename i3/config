@@ -147,6 +147,9 @@ bindsym $mod+r mode "resize"
 # use any non-zero value for border
 for_window [class=".*"] border pixel 0
 
+# Assign Workspaces:
+assign [class="Waterfox"] $ws1
+
 # gaps
 gaps inner 10
 smart_gaps on
@@ -164,7 +167,5 @@ exec cadmus
 bindsym --release $mod+Shift+s exec flameshot gui
 
 # app keybinds
-bindsym $sup+d exec --no-startup-id lightcord		# lightcord
-bindsym $sup+f exec --no-startup-id thunar		# file manager
-bindsym $sup+b exec --no-startup-id waterfox-current	# browser
-bindsym $sup+p exec --no-startup-id mpv			# media player
+bindsym $sup+3 exec --no-startup-id ~/Applications/lightcord-appimage/lightcord.AppImage	# lightcord
+bindsym $sup+1 exec --no-startup-id ~/Applications/waterfox/waterfox				# browser
