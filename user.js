@@ -1712,3 +1712,6 @@ user_pref("media.peerconnection.enabled", true); // 2001
 user_pref("media.peerconnection.ice.no_host", false); // 2001
 user_pref("dom.webaudio.enabled", true); // 2510
 user_pref("media.autoplay.blocking_policy", 0); // 2031
+
+/* Fulscreen WM fix */
+user_pref("full-screen-api.ignore-widgets", true);

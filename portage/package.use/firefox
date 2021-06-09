@@ -1,0 +1,5 @@
+www-client/firefox -hwaccel open264 pgo lto l10n_ru
+
+>=media-libs/libpng-1.6.37-r2 apng
+>=media-libs/libvpx-1.10.0 postproc
+>=x11-base/xorg-server-1.20.11 xvfb
