@@ -1,0 +1,43 @@
+@import url("css/autohide_sidebar.css");
+@import url("css/autohide_bookmarks_toolbar.css");
+@import url("css/compact-findbar-on-top.css");
+
+/* Hide tabs toolbar (with padding, enable title bar) */
+#TabsToolbar > * { 
+  display: none; 
+}
+
+/* Hide sidebar header */
+#sidebar-header { 
+  display: none;
+}
+
+/* Hide hamburger menu */
+#PanelUI-button {
+  display: none;
+}
+
+/* Hide the back and forward buttons */
+#main-window :-moz-any(#back-button, #forward-button) {
+  display: none !important;
+}
+
+/* Hides the Tracking Protection icon */
+#tracking-protection-icon-box {
+  visibility: collapse !important;
+}
+
+/* Hide padlock/SSL indicator */
+#identity-box {
+  display: none;
+}
+
+/* Center urlbar text */
+#urlbar:not([focused]) #urlbar-input, /* ID for Firefox 70 */
+#urlbar:not([focused]) .urlbar-input { text-align: center !important; }
+
+/* Hide page action buttons */
+#page-action-buttons { 
+  display: none !important;
+}
+
