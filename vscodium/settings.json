@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Horizon Italic",
   "editor.cursorStyle": "underline",
   "terminal.integrated.cursorStyle": "underline",
-  "editor.fontFamily": "Hack Nerd Font",
+  "editor.fontFamily": "Hack NF",
   "window.customMenuBarAltFocus": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.enableExperiments": false,
@@ -29,7 +29,6 @@
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingOvertype": "always",
   "editor.autoClosingQuotes": "always",
-  "editor.codeLensFontFamily": "Hack Nerd Font",
   "editor.hover.delay": 200,
   "editor.lightbulb.enabled": false,
   "editor.linkedEditing": true,
@@ -60,9 +59,9 @@
   "explorer.incrementalNaming": "smart",
   "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
   "search.searchEditor.reusePriorSearchConfiguration": true,
-  "debug.console.fontFamily": "Hack Nerd Font",
+  "debug.console.fontFamily": "Hack NFM",
   "terminal.integrated.rightClickBehavior": "nothing",
-  "terminal.integrated.shellIntegration.decorationsEnabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "gutter",
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.useWslProfiles": false,
   "terminal.integrated.windowsEnableConpty": false,
@@ -76,7 +75,6 @@
   "html.format.indentInnerHtml": true,
   "html.format.wrapLineLength": 0,
   "markdown.preview.breaks": true,
-  "vscode-neovim.mouseSelectionStartVisualMode": true,
   "javascript.format.insertSpaceAfterConstructor": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
@@ -96,10 +94,8 @@
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
   "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "errorLens.fontFamily": "Hack Nerd Font",
-  "errorLens.fontSize": "Hack Nerd Font",
+  "errorLens.fontFamily": "Hack NF",
   "livePreview.notifyOnOpenLooseFile": false,
-  "window.menuBarVisibility": "hidden",
   "window.enableMenuBarMnemonics": false,
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 500,
@@ -384,9 +380,9 @@
         },
         {
           "key": "g",
-          "name": "Graph",
+          "name": "Show source control",
           "type": "command",
-          "command": "git-graph.view"
+          "command": "workbench.view.scm"
         },
         {
           "key": "h",
@@ -950,47 +946,243 @@
   ],
   "workbench.list.automaticKeyboardNavigation": false,
   "emmet.showSuggestionsAsSnippets": true,
-  "editor.snippetSuggestions": "bottom",
   "editor.minimap.enabled": false,
   "C_Cpp.autocompleteAddParentheses": true,
   "C_Cpp.clang_format_path": "/usr/lib/llvm/14/bin/clang-format",
   "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
   "git.confirmSync": false,
-  "breadcrumbs.enabled": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.fontSize": 12.5,
-"Lua.telemetry.enable": true,
-  "editor.cursorSmoothCaretAnimation": true,
-"gitlens.defaultGravatarsStyle": "mp",
+  "Lua.telemetry.enable": true,
+  "gitlens.defaultGravatarsStyle": "mp",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-// "gitlens.hovers.currentLine.over": "line",
-"gitlens.plusFeatures.enabled": false,
-"[typescriptreact]": {
+  },
+  // "gitlens.hovers.currentLine.over": "line",
+  "gitlens.plusFeatures.enabled": false,
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[json]": {
+  },
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[css]": {
+  },
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[scss]": {
+  },
+  "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"window.zoomLevel": 0.7,
-"git.autofetch": true,
-"git.fetchOnPull": true,
-"git.autofetchPeriod": 1800,
-"[javascript]": {
+  },
+  "window.zoomLevel": 0.3,
+  "git.autofetch": true,
+  "git.fetchOnPull": true,
+  "git.autofetchPeriod": 1800,
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"terminal.integrated.enableMultiLinePasteWarning": false,
-"[markdown]": {
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-}
+  },
+  "terminal.integrated.fontFamily": "Hack NFM",
+  "editor.codeLensFontFamily": "Hack NF",
+  "editor.inlayHints.fontFamily": "Hack NF",
+  "editor.formatOnSave": true,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.currentLine.enabled": false,
+  "vscode-neovim.useWSL": true,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.rename.enablePreview": false,
+  "workbench.editor.enablePreview": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.json": "jsonc",
+    ".prettierrc": "jsonc"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "whichkey.transient": {
+    "error": {
+      "title": "Error transient",
+      "bindings": [
+        {
+          "key": "N",
+          "name": "Previous error",
+          "command": "editor.action.marker.prev"
+        },
+        {
+          "key": "n",
+          "name": "Next error",
+          "command": "editor.action.marker.next"
+        },
+        {
+          "key": "p",
+          "name": "Previous error",
+          "command": "editor.action.marker.prev"
+        }
+      ]
+    },
+    "symbol": {
+      "title": "Highlight symbol transient",
+      "bindings": [
+        {
+          "key": "p",
+          "name": "Previous occurrence",
+          "command": "editor.action.wordHighlight.prev"
+        },
+        {
+          "key": "N",
+          "name": "Previous occurrence",
+          "command": "editor.action.wordHighlight.prev"
+        },
+        {
+          "key": "n",
+          "name": "Next occurrence",
+          "command": "editor.action.wordHighlight.next"
+        },
+        {
+          "key": "/",
+          "name": "Search in a project with a selection",
+          "commands": [
+            "editor.action.addSelectionToNextFindMatch",
+            "workbench.action.findInFiles"
+          ]
+        }
+      ]
+    },
+    "lineMoving": {
+      "title": "Line moving transient",
+      "bindings": [
+        {
+          "key": "J",
+          "name": "Move lines down",
+          "command": "editor.action.moveLinesDownAction"
+        },
+        {
+          "key": "K",
+          "name": "Move lines up",
+          "command": "editor.action.moveLinesUpAction"
+        }
+      ]
+    },
+    "frameZooming": {
+      "title": "Frame zooming transient",
+      "bindings": [
+        {
+          "key": "=",
+          "name": "Zoom in",
+          "command": "workbench.action.zoomIn"
+        },
+        {
+          "key": "+",
+          "name": "Zoom in",
+          "command": "workbench.action.zoomIn"
+        },
+        {
+          "key": "-",
+          "name": "Zoom out",
+          "command": "workbench.action.zoomOut"
+        },
+        {
+          "key": "0",
+          "name": "Reset zoom",
+          "command": "workbench.action.zoomReset"
+        }
+      ]
+    },
+    "fontZooming": {
+      "title": "Front zooming transient",
+      "bindings": [
+        {
+          "key": "=",
+          "name": "Zoom in",
+          "command": "editor.action.fontZoomIn"
+        },
+        {
+          "key": "+",
+          "name": "Zoom in",
+          "command": "editor.action.fontZoomIn"
+        },
+        {
+          "key": "-",
+          "name": "Zoom out",
+          "command": "editor.action.fontZoomOut"
+        },
+        {
+          "key": "0",
+          "name": "Reset zoom",
+          "command": "editor.action.fontZoomReset"
+        }
+      ]
+    },
+    "imageZooming": {
+      "title": "Image zooming transient",
+      "bindings": [
+        {
+          "key": "=",
+          "name": "Zoom in",
+          "command": "imagePreview.zoomIn"
+        },
+        {
+          "key": "+",
+          "name": "Zoom in",
+          "command": "imagePreview.zoomIn"
+        },
+        {
+          "key": "-",
+          "name": "Zoom out",
+          "command": "imagePreview.zoomOut"
+        }
+      ]
+    },
+    "smartExpand": {
+      "title": "Smart expand transient",
+      "bindings": [
+        {
+          "key": "v",
+          "name": "Grow selection",
+          "command": "editor.action.smartSelect.grow"
+        },
+        {
+          "key": "V",
+          "name": "Shrink selection",
+          "command": "editor.action.smartSelect.shrink"
+        }
+      ]
+    }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.useESLintClass": true,
+  "eslint.alwaysShowStatus": true,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "npm-intellisense.packageSubfoldersIntellisense": true,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "postcss.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  // * Path Intellisense plugin
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "window.menuBarVisibility": "toggle",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.trustedDomains.promptInTrustedWorkspace": true,
+  "emmet.excludeLanguages": ["markdown", "Typescript React", "Javascript React"]
 }

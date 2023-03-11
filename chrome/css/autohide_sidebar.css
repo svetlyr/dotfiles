@@ -7,7 +7,7 @@ See the above repository for updates as well as full license text. */
 #sidebar-box{
   --uc-sidebar-width: 40px;
   --uc-sidebar-hover-width: 210px;
-  --uc-autohide-sidebar-delay: 000ms; /* Wait 0.6s before hiding sidebar */
+  --uc-autohide-sidebar-delay: 000ms; /* Wait before hiding sidebar */
   position: relative;
   min-width: var(--uc-sidebar-width) !important;
   width: var(--uc-sidebar-width) !important;
@@ -28,7 +28,7 @@ See the above repository for updates as well as full license text. */
 #sidebar-header{ overflow: hidden; color: var(--chrome-color, inherit) !important}
 
 #sidebar{
-  transition: min-width 250ms linear var(--uc-autohide-sidebar-delay) !important;
+  transition: min-width 250ms ease var(--uc-autohide-sidebar-delay) !important;
   min-width: var(--uc-sidebar-width) !important;
   will-change: min-width;
 }
@@ -42,7 +42,7 @@ See the above repository for updates as well as full license text. */
 
 .sidebar-panel #search-box{
   -moz-appearance: none !important;
-  background-color: rgba(249,249,250,0.1) !important; 
+  background-color: rgba(249,249,250,0.1) !important;
   color: inherit !important;
 }
 

@@ -1,6 +1,6 @@
 @import url("css/autohide_sidebar.css");
-@import url("css/autohide_bookmarks_toolbar.css");
 @import url("css/compact-findbar-on-top.css");
+@import url("css/autohide_bookmarks_toolbar.css");
 
 /* Hide tabs toolbar (with padding, enable title bar) */
 #TabsToolbar > * { 
