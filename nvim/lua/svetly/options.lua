@@ -1,12 +1,12 @@
 local options = {}
 if vim.g.vscode then
     options = {
-        showmode = false,                        -- we don't need to see things like -- INSERT -- anymore
-        swapfile = false,                        -- creates a swapfile
-        termguicolors = true,                    -- set term gui colors (most terminals support this)
-        guicursor = "n:hor100,i:ver1",           -- set cursor for different modes
-        cursorline = false,                      -- highlight the current line
-        signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
+        showmode = false,              -- we don't need to see things like -- INSERT -- anymore
+        swapfile = false,              -- creates a swapfile
+        termguicolors = true,          -- set term gui colors (most terminals support this)
+        guicursor = "n:hor100,i:ver1", -- set cursor for different modes
+        cursorline = false,            -- highlight the current line
+        signcolumn = "yes",            -- always show the sign column, otherwise it would shift the text each time
         timeout = true,
         timeoutlen = 500
     }
@@ -36,7 +36,7 @@ else
         swapfile = false,                        -- creates a swapfile
         termguicolors = true,                    -- set term gui colors (most terminals support this)
         guicursor = "n:hor100,i:ver1",           -- set cursor for different modes
-        timeoutlen = 200,                       -- time to wait for a mapped sequence to complete (in milliseconds)
+        timeoutlen = 200,                        -- time to wait for a mapped sequence to complete (in milliseconds)
         undofile = true,                         -- enable persistent undo
         updatetime = 300,                        -- faster completion (4000ms default)
         writebackup = false,                     -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
@@ -45,7 +45,7 @@ else
         tabstop = 4,                             -- insert 4 spaces for a tab
         cursorline = false,                      -- highlight the current line
         number = true,                           -- set numbered lines
-        relativenumber = true,                  -- set relative numbered lines
+        relativenumber = true,                   -- set relative numbered lines
         numberwidth = 4,                         -- set number column width to 2 {default 4}
         signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
         wrap = true,                             -- display lines as one long line

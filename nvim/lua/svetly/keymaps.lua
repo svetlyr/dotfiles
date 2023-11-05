@@ -1,5 +1,5 @@
 if vim.g.vscode then
-    local opts = { noremap = true, silent = true}
+    local opts = { noremap = true, silent = true }
     local keymap = vim.api.nvim_set_keymap
 
     -- Better Navigation
@@ -12,7 +12,7 @@ if vim.g.vscode then
     keymap("x", "<C-k>", ":call VSCodeNotify('workbench.action.navigateUp')<CR>", opts)
     keymap("n", "<C-k>", ":call VSCodeNotify('workbench.action.navigateUp')<CR>", opts)
 
-    keymap("n", "gr", "<Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>", {noremap = true})
+    keymap("n", "gr", "<Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>", { noremap = true })
 
     keymap("n", "<C-w>-", ":call VSCodeNotify('workbench.action.toggleEditorWidths')<CR>", opts)
 
