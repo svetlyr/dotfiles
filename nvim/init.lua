@@ -1,5 +1,5 @@
 require "svetly.options"
-require "svetly.plugins-vscode"
+require "svetly.plugins"
 require "svetly.functions"
 require "svetly.keymaps"
 -- require "svetly.plugins-native"

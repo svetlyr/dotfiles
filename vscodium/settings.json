@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Horizon Italic",
   "editor.cursorStyle": "underline",
   "terminal.integrated.cursorStyle": "underline",
-  "editor.fontFamily": "Hack NF",
+  "editor.fontFamily": "Hack Nerd Font",
   "window.customMenuBarAltFocus": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.enableExperiments": false,
@@ -59,7 +59,7 @@
   "explorer.incrementalNaming": "smart",
   "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
   "search.searchEditor.reusePriorSearchConfiguration": true,
-  "debug.console.fontFamily": "Hack NFM",
+  "debug.console.fontFamily": "Hack Nerd Font Mono",
   "terminal.integrated.rightClickBehavior": "nothing",
   "terminal.integrated.shellIntegration.decorationsEnabled": "gutter",
   "terminal.integrated.showExitAlert": false,
@@ -94,7 +94,7 @@
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
   "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "errorLens.fontFamily": "Hack NF",
+  "errorLens.fontFamily": "Hack Nerd Font",
   "livePreview.notifyOnOpenLooseFile": false,
   "window.enableMenuBarMnemonics": false,
   "whichkey.sortOrder": "alphabetically",
@@ -975,7 +975,7 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0.3,
+  "window.zoomLevel": 0.18,
   "git.autofetch": true,
   "git.fetchOnPull": true,
   "git.autofetchPeriod": 1800,
@@ -986,9 +986,8 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-  "terminal.integrated.fontFamily": "Hack NFM",
-  "editor.codeLensFontFamily": "Hack NF",
-  "editor.inlayHints.fontFamily": "Hack NF",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "editor.codeLensFontFamily": "Hack Nerd Font",
   "editor.formatOnSave": true,
   "gitlens.showWhatsNewAfterUpgrades": false,
   "gitlens.currentLine.enabled": false,
@@ -1184,5 +1183,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.trustedDomains.promptInTrustedWorkspace": true,
-  "emmet.excludeLanguages": ["markdown", "Typescript React", "Javascript React"]
+  "emmet.excludeLanguages": [
+    "markdown",
+    "Typescript React",
+    "Javascript React"
+  ],
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "editor.snippetSuggestions": "top"
 }

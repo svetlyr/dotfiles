@@ -30,8 +30,6 @@ if vim.g.vscode then
             endif
         endfunction
     ]])
-
-    vim.cmd([[hi LightspeedCursor gui=reverse]]) -- Fix for lightspeed cursor
 else
 
 end
