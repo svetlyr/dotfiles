@@ -1,30 +1,27 @@
 {
-  "workbench.colorTheme": "Horizon Italic",
   "editor.cursorStyle": "underline",
   "terminal.integrated.cursorStyle": "underline",
   "editor.fontFamily": "Hack Nerd Font",
   "window.customMenuBarAltFocus": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.enableExperiments": false,
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.linux": "/home/svetly/.config/nvim/init.lua",
+  "vscode-neovim.neovimExecutablePaths.linux": "",
   "terminal.external.linuxExec": "zsh",
   "terminal.integrated.copyOnSelection": true,
   "editor.cursorBlinking": "solid",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.scrollback": 100000,
   "editor.lineNumbers": "relative",
   "search.showLineNumbers": true,
   "editor.cursorSurroundingLines": 10,
   "search.smartCase": true,
   "editor.wordWrap": "on",
   "emmet.triggerExpansionOnTab": true,
-  "workbench.editor.tabCloseButton": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "explorer.confirmDelete": false,
   "editor.renderWhitespace": "trailing",
-  "editor.detectIndentation": false,
   "editor.accessibilitySupport": "off",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingOvertype": "always",
@@ -52,8 +49,6 @@
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.preferHistoryBasedLanguageDetection": true,
   "workbench.editor.sharedViewState": true,
-  "workbench.editor.untitled.hint": "hidden",
-  "workbench.settings.useSplitJSON": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.copyRelativePathSeparator": "/",
   "explorer.incrementalNaming": "smart",
@@ -95,7 +90,6 @@
   "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
   "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
   "errorLens.fontFamily": "Hack Nerd Font",
-  "livePreview.notifyOnOpenLooseFile": false,
   "window.enableMenuBarMnemonics": false,
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 500,
@@ -944,24 +938,18 @@
       "command": "workbench.action.toggleZenMode"
     }
   ],
-  "workbench.list.automaticKeyboardNavigation": false,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.minimap.enabled": false,
-  "C_Cpp.autocompleteAddParentheses": true,
-  "C_Cpp.clang_format_path": "/usr/lib/llvm/14/bin/clang-format",
-  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
   "git.confirmSync": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.fontSize": 12.5,
-  "Lua.telemetry.enable": true,
   "gitlens.defaultGravatarsStyle": "mp",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // "gitlens.hovers.currentLine.over": "line",
   "gitlens.plusFeatures.enabled": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -975,7 +963,7 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0.18,
+  "window.zoomLevel": 0.2,
   "git.autofetch": true,
   "git.fetchOnPull": true,
   "git.autofetchPeriod": 1800,
@@ -983,26 +971,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "editor.codeLensFontFamily": "Hack Nerd Font",
   "editor.formatOnSave": true,
   "gitlens.showWhatsNewAfterUpgrades": false,
   "gitlens.currentLine.enabled": false,
-  "vscode-neovim.useWSL": true,
   "editor.quickSuggestionsDelay": 0,
   "editor.rename.enablePreview": false,
-  "workbench.editor.enablePreview": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {
     "*.json": "jsonc",
-    ".prettierrc": "jsonc"
-  },
-  "workbench.iconTheme": "material-icon-theme",
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    ".prettierrc": "jsonc",
+    "*.css": "tailwindcss"
   },
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.list.smoothScrolling": true,
@@ -1192,5 +1172,50 @@
     "asvetliakov.vscode-neovim": 1
   },
   "workbench.editor.empty.hint": "hidden",
-  "editor.snippetSuggestions": "top"
+  "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\svetly\\AppData\\Local\\nvim\\init.lua",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "vscode-icons",
+  "vue.updateImportsOnFileMove.enabled": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vue.complete.casing.props": "autoCamel",
+  "vue.complete.casing.status": false,
+  "vue.inlayHints.missingProps": true,
+  "editor.fontLigatures": true,
+  "conventionalCommits.showNewVersionNotes": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.enableAutoCloseTag": false,
+  "editor.fontSize": 14.5,
+  "json.schemas": [
+    {
+      "fileMatch": ["nx.json"],
+      "url": "./node_modules/nx/schemas/nx-schema.json"
+    },
+
+    {
+      "fileMatch": ["project.json"],
+      "url": "./node_modules/nx/schemas/project-schema.json"
+    }
+  ],
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "Horizon Italic",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "playwright.reuseBrowser": false
 }

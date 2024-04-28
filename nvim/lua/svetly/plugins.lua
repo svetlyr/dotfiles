@@ -13,9 +13,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     {
-        "ggandor/leap.nvim",
-        config = function()
-            require("leap").add_default_mappings()
-        end
-    }
+        -- "ggandor/leap.nvim",
+        -- config = function()
+        --     require("leap").add_default_mappings()
+        -- end
+    },
+    { "akinsho/horizon.nvim", version = "*" }
 })
